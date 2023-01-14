@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piggyvest Clone</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER -->
+
+    <!-- nav bar section -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 mb-5">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.svg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="#">Save</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link  " href="#">Invest</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link  " href="#">Stories</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link  " href="#">FAQs</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link  " href="#">Blog</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link  " href="#">E-book</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <a href="login.html" class="btn border text-dark border-dark mx-2 py-3" >Sign in</a>
+                    <a href="register.html" class="btn btn-dark py-3" >Create free account</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO PAGE -->
+    <div class="container col-xxl-10 px-4 py-4">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img  src="img/banner.png" class="d-block hero-image mx-lg-auto" alt="" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <div class="lc-block mb-4">
+                    <div editable="rich">
+                        <h2 class="fw-bold hero-title">The Better Way <br> to Save & Invest.</h2>
+                    </div>
+                </div>
+
+                <div class="lc-blockc mb-4">
+                    <div editable="rich mb-4">
+                        <p class="lead font16 mb-4">PiggyVest helps over 4 million customers achieve their financial
+                            <br> goals by helping them save and invest with ease.
+                        </p>
+                    </div>
+                    <a class="btn btn-dark px-4 py-3 font16 fw-bold " href="#" role="button"> Create free account </a>
+                </div>
+
+                <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-start py-2"><a
+                        class="btn border border-muted px-4 me-md-2 font14" href="#" role="button"><img
+                            class="store-img" src="img/apple.png" alt=""> Get on iphone</a>
+                    <a class="btn border border-muted px-4 py-2 font14" href="#" role="button"> <img
+                            src="img/google-play.png" alt="" class="store-img"> Get on Andriod</a>
+                </div>
+
+            </div>
+        </div>
+    </div><br><br><br><br><br>
+
+    <!-- Security -->
+    <div class="container d-flex justify-content-center align-items-center mb-5">
+
+        <img class="security" src="img/security.png" alt="">
+        <div class="mx-5">
+            <h4 class="font33 mb-3">Your security is our priority</h4>
+            <p class="font14">PiggyVest uses the highest level of Internet Security and it is secured by 256 bits SSL
+                security <br> encryption to ensure that your information is comepletely protected from fraud.
+            </p>
+
+            <a href="#">Learn more &#62;</a>
+        </div>
+    </div><br><br><br>
+
+    <!-- Build Savings PAGE -->
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4 d-md-flex">
+                <div class="content px-3 pt-5">
+                    <h3 class="title pt-5">4 ways to build <br> your savings</h3>
+                    <p class="text">Earn 5%-15% when you save with any of these PiggyVest plans.</p>
+                    <button class="btn btn-dark " type="submit">Start Saving</button>
+                </div>
+            </div>
+            <div class="col-md-8 d-md-flex">
+                <div class="row">
+                    <div class="col-sm-6 mb-4">
+                        <div class="card border-0 bg-light mx-3 my-3 p-3 savings-border">
+                            <div class="card-body">
+                                <img class="savings-icon mb-5" src="img/secure.png" alt="">
+                                <h5 class="card-title mb-4">Automated Savings</h5>
+                                <p class="card-text mb-5">Build a dedicated savings faster on <br> your terms
+                                    automatically or <br> manually.</p>
+                                <a href="#" class="text-dark"><span class="p-1 arrow text-primary rounded-circle arrowblue">
+                                        &#8594; </span> <span class="mx-2">Piggybank</span> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <div class="card border-0 bg-light mx-3 my-3 p-3 savings-border">
+                            <div class="card-body">
+                                <img class="savings-icon mb-5" src="img/safelock.png" alt="">
+                                <h5 class="card-title mb-4">Fixed Savings</h5>
+                                <p class="card-text mb-5">Lock money away for a fixed duration <br> with no access to it until maturity. it's <br>
+                                    like having a custom fixed deposit.</p>
+                                <a href="#" class="text-dark"><span class="p-1 arrow text-primary rounded-circle arrowblue">
+                                        &#8594; </span> <span class="mx-2">Safelock</span> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <div class="card border-0 bg-light mx-3 my-3 p-3 savings-border">
+                            <div class="card-body">
+                                <img class="savings-icon mb-5" src="img/target.png" alt="">
+                                <h5 class="card-title mb-4">Goal-oriented Savings</h5>
+                                <p class="card-text mb-5">Reach all your savings goals faster. <br> save towards multiple goals on your <br>
+                                    own or with a group.</p>
+                                <a href="#" class="text-dark"><span class="p-1 arrow text-success rounded-circle arrowgreen">
+                                        &#8594; </span> <span class="mx-2">Target Savings</span> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <div class="card border-0 bg-light mx-3 my-3 p-3 savings-border">
+                            <div class="card-body">
+                                <img class="savings-icon mb-5" src="img/flexsavings.png" alt="">
+                                <h5 class="card-title mb-4">Automated Savings</h5>
+                                <p class="card-text mb-5">Save, transfer, withdraw, manage and <br> organise your money for free at any <br> time.</p>
+                                <a href="#" class="text-dark"><span class="p-1 arrow text-danger rounded-circle arrowred">
+                                        &#8594; </span> <span class="mx-2">Flex Naira</span> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- INESTMENT PAGE -->
+    <div class="container col-xxl-8 px-4 py-4">
+        <div class="row flex-lg-row align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-5">
+                <img src="img/Invest.png" class="d-block invest-photo mx-lg-auto img-fluid" alt="" loading="lazy">
+            </div>
+            <div class="col-lg-7">
+                <div class="lc-block mb-4">
+                    <span class=" px-3 py-2 savings-border violet" style=" background-color: #f7f0ff;">Up To 25%
+                        Returns</span><br><br>
+                    <div editable="rich">
+                        <h2 class="fw-bold hero-title">Access investment <br> opportunities</h2>
+                    </div>
+                </div>
+
+                <div class="lc-blockc mb-4">
+                    <div editable="rich mb-4">
+                        <p class="lead font16 mb-4">PiggyVest helps over 4 million customers achieve their financial
+                            <br> goals by helping them save and invest with ease.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-start py-2">
+                    <a class=" px-4 py-2 font14 violet" href="#" role="button" style="font-size: 16px"> Learn more about
+                        Investments > </a>
+                </div>
+
+            </div>
+        </div>
+    </div><br><br><br><br><br>
+
+    <!-- SAVER OF THE MONTH -->
+
+    <div class="d-flex my-5" style="height: 450px">
+        <div class="col-sm-6 mb-3 mb-sm-0 bg-info p-3">
+            <div class="p-5">
+                <div style="margin-left: 70px">
+                    <h1 class="title text-white mb-5">Meet the saver of <br> the month!</h1>
+                    <p class="mb-5 text-white">Every month, we shine a spotlight on one saver, asking them questions about their
+                        savings culture and how the product is specifically helping them shape how they spend and save
+                        for future responsibilities.</p>
+                    <a href="#" class="text-dark mt-4"><span class="p-1 arrow text-primary rounded-circle bg-white">
+                            &#8594; </span> <span class="mx-2 text-white">Meet The Oyetade’s</span> </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-sm-6" style="background-image: url(img/The-Oyetades.png); background-size: cover;">
+            <div>
+                <!-- <img class="" class="w-100" src="img/The-Oyetades.png" alt=""> -->
+            </div>
+        </div>
+    </div><br><br><br>
+
+    <!-- TESTIMONIA PAGE -->
+    <section class="customers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 left">
+                    <div class="testimonials" hidden>
+                        <div height="675" class="testify-slide-up">
+                            <div class="box">
+                                <small>Thursday, 27th of October 2022 by 13:03 PM</small>
+                                <div class="d-flex mt-20 clear-right"><img
+                                        src="https://storage.googleapis.com/piggybankservice.appspot.com/_story_pics/img8a810f8584.jpeg"
+                                        alt="Rachael O" width="35" height="10">
+                                    <div>
+                                        <h6 class="font12">Rachael O</h6>
+                                        <p class="font12">My name is Rachael Joseph and I am here to testify that Piggyvest has helped
+                                            me a lot. I had to spread the good news to my friends and am the type of person that spends lavishly. Thank you once
+                                            again Piggyvest 💙</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <small>Monday, 24th of October 2022 by 23:27 PM</small>
+                                <div class="d-flex mt-20 clear-right"><img
+                                        src="https://storage.googleapis.com/piggybankservice.appspot.com/_story_pics/img9c88f0d5d5.jpeg"
+                                        alt="Uchendu C" width="35" height="10">
+                                    <div>
+                                        <h6 class="font12">Uchendu C</h6>
+                                        <p class="font12">Whenever money got into my hands, I never knew how I squandered it so fast
+                                            without even saving a little. I got to hear about Piggy vest and it's
+                                            various services and right now, I am totally enjoying this journey.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <smal>Thursday, 6th of October 2022 by 11:42 AM</small>
+                                <div class="d-flex mt-20 clear-right"><img
+                                        src="https://storage.googleapis.com/piggybankservice.appspot.com/_story_pics/img6a9c68559e.jpeg"
+                                        alt="Tobenna A" width="35" height="10">
+                                    <div>
+                                        <h6 class="font12">Tobenna A</h6>
+                                        <p class="font12">Thanks to piggyvest I've saved enough money to start up a really large
+                                            business</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <small>Wednesday, 5th of October 2022 by 03:08 AM</small>
+                                <div class="d-flex mt-20 clear-right"><img
+                                        src="https://storage.googleapis.com/piggybankservice.appspot.com/_story_pics/img2a4bd14305.jpeg"
+                                        alt="Micheal F" width="35" height="10">
+                                    <div>
+                                        <h6 class="font12">Micheal F</h6>
+                                        <p class="font12">I just joined tho and I believe piggyVest won't disappoint me 😊❤️</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <small>Thursday, 27th of October 2022 by 13:03 PM</small>
+                                <div class="d-flex mt-20 clear-right"><img
+                                        src="https://storage.googleapis.com/piggybankservice.appspot.com/_story_pics/img8a810f8584.jpeg"
+                                        alt="Rachael O" width="35" height="10">
+                                    <div>
+                                        <h6 class="font12">Rachael O</h6>
+                                        <p class="font12">My name is Rachael Joseph and I am here to testify that Piggyvest has helped
+                                            me a lot. I had to spread the good news to my friends and tell. Thank you once
+                                            again Piggyvest 💙</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <small>Monday, 24th of October 2022 by 23:27 PM</small>
+                                <div class="d-flex mt-20 clear-right"><img
+                                        src="https://storage.googleapis.com/piggybankservice.appspot.com/_story_pics/img9c88f0d5d5.jpeg"
+                                        alt="Uchendu C" width="35" height="10">
+                                    <div>
+                                        <h6 class="font12">Uchendu C</h6>
+                                        <p class="font12">Whenever money got into my hands, I never knew how I squandered it so fast
+                                            without even saving a little. I got to hear about Piggy vest and it's
+                                            various services and right now, I am totally enjoying this journey.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <small>Thursday, 6th of October 2022 by 11:42 AM</small>
+                                <div class="d-flex mt-20 clear-right"><img
+                                        src="https://storage.googleapis.com/piggybankservice.appspot.com/_story_pics/img6a9c68559e.jpeg"
+                                        alt="Tobenna A" width="35" height="10">
+                                    <div>
+                                        <h6 class="font12">Tobenna A</h6>
+                                        <p class="font12">Thanks to piggyvest I've saved enough money to start up a really large
+                                            business</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <small>Wednesday, 5th of October 2022 by 03:08 AM</small>
+                                <div class="d-flex mt-20 clear-right"><img
+                                        src="https://storage.googleapis.com/piggybankservice.appspot.com/_story_pics/img2a4bd14305.jpeg"
+                                        alt="Micheal F" width="35" height="10">
+                                    <div>
+                                        <h6 class="font12"></h6>
+                                        <p class="font12">I just joined tho and I believe piggyVest won't disappoint me 😊❤️</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <marquee direction="up" class="testimonials">
+                        <div class="py-4">
+                            <!-- <div class="row"> -->
+                                <div class="mx-auto">
+
+                                    <div class="mx-5 pt-5 pb-3 bg-light mb-3">
+                                        <div id="carouselTestimonial" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner px-2">
+                                                <div class="carousel-item active">
+
+                                                    <div class="d-flex flex-lg-row-reverse">
+
+                                                        <div class="lc-block">
+                                                            <div editable="rich text-start">
+                                                                <p class="rfs-8 font12 text-muted">Monday, 24th of October 2022 by 23:27 PM <br>
+                                                                    Uchendu C <br>
+                                                                    Whenever money got into my hands, I never knew how I 
+                                                                    squandered it so fast without even saving a little. I got to 
+                                                                    hear about Piggy vest and it's various services and right now, 
+                                                                    I am totally enjoying this journey.
+                                                                    </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="lc-block">
+                                                            <div class="lc-block d-inline-flex">
+                                                                <div class="lc-block me-3" style="min-width:50px">
+                                                                    <img class="img-fluid rounded-circle "
+                                                                        src="https://i.pravatar.cc/96?img=6" width="72"
+                                                                        height="72">
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mx-5 lc-block pt-5 pb-3 bg-light mb-3">
+                                        <div id="carouselTestimonial" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner px-5">
+                                                <div class="carousel-item active">
+
+                                                    <div class="d-flex flex-lg-row-reverse">
+
+                                                        <div class="lc-block">
+                                                            <div editable="rich text-start">
+                                                                <p class="rfs-8 font12 text-muted">Thursday, 27th of October 2022 by 13:03 PM <br>
+                                                                    My name is Rachael Joseph. Thank you so much Pggyvest 
+                                                                    for saving me cause I am the type of person that spends lavishly. 
+                                                                    Thank you once again Piggyvest 💙
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="lc-block">
+                                                            <div class="lc-block d-inline-flex">
+                                                                <div class="lc-block me-3" style="min-width:50px">
+                                                                    <img class="img-fluid rounded-circle "
+                                                                        src="https://i.pravatar.cc/96?img=6" width="72"
+                                                                        height="72">
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mx-5 lc-block pt-5 pb-3 bg-light mb-3">
+                                        <div id="carouselTestimonial" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner px-5">
+                                                <div class="carousel-item active">
+
+                                                    <div class="d-flex flex-lg-row-reverse">
+
+                                                        <div class="lc-block">
+                                                            <div editable="rich text-start">
+                                                                <p class="rfs-8 font12 text-muted">Wednesday, 5th of October 2022 by 03:08 AM <br>
+                                                                    Micheal F <br>
+                                                                    I just joined tho and I believe piggyVest won't disappoint me 😊❤️
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="lc-block">
+                                                            <div class="lc-block d-inline-flex">
+                                                                <div class="lc-block me-3" style="min-width:50px">
+                                                                    <img class="img-fluid rounded-circle "
+                                                                        src="https://i.pravatar.cc/96?img=6" width="72"
+                                                                        height="72">
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                                                                                                                                                                         f
+                            <!-- </div> -->
+                        </div>
+                    </marquee>
+                </div>
+                <div class="col-lg-7 col-md-7">
+                    <div class="lc-block mb-4 mt-4">
+                        <div editable="rich">
+                            <h2 class="fw-bold">4 Million + customers</h2>
+                        </div>
+                    </div>
+                    <div class="lc-blockc mb-4">
+                        <div editable="rich mb-4">
+                            <p class="lead font16 mb-4">Since launching in 2016, over 4,000,000 people have
+                                <br> used PiggyVest to manage their money better, avoid
+                                <br> over-spending and be more accountable.
+                            </p>
+                        </div>
+                        <a class="btn btn-dark px-4 py-3 font16 fw-bold " href="#" role="button"> Create free account
+                        </a>
+                    </div>
+
+                    <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-start py-2">
+                        <a class="btn border border-muted px-4 me-md-2 font14" href="#" role="button"><img class="store-img" src="img/apple.png" alt=""> Get on iphone</a>
+                        <a class="btn border border-muted px-4 me-md-2 font14" href="#" role="button"> <img src="img/google-play.png" alt="" class="store-img"> Get on Andriod</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br>
+
+    <!-- PARTNERS -->
+    <section class="bg-light">
+        <div class="container px-3 py-5">
+            <div class="row">
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card border-0 bg-transparent px-6">
+                        <div class="card-body">
+                            <h5 class="feature-title">As featured in</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="card border-0 bg-transparent px-5">
+                        <div class="card-body">
+                            <img class="partners" src="img/image-TechPoint.png" alt="">
+                            <img class="partners mx-5" src="img/image-Theguardian.png" alt="">
+                            <img class="partners" src="img/image-Techcrunch.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-sm-3 mb-3 mb-sm-0">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <img class="mb-4" src="img/logo.svg" alt="">
+                        <img class="w-50 border rounded p-3" src="img/compliance-f24fa70ce98ff6f4dcdfddeefc2bdd5a.webp"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <h5 class="card-title footer-title font12">Products</h5>
+                        <div class="mb-2">
+                            <a class="footer-link font12" href="#">Piggybank</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="footer-link font12" href="#">Invest</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="footer-link font12" href="#">Safelock</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="footer-link font12" href="#">Target Savings</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="footer-link font12" href="#">Flex Naira</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <h5 class="card-title footer-title font12">Company</h5>
+                        <div class="mb-2">
+                            <a class="footer-link font12" href="#">About</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="footer-link font12" href="#">FAQs</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="footer-link font12" href="#">Blog</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <h5 class="card-title footer-title font12">Legal</h5>
+                        <div class="mb-2">
+                            <a class="footer-link font12" href="#">Terms</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="footer-link font12" href="#">Privacy</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="footer-link font12" href="#">Security</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <div class=" footer-title font12 mb-3">
+                            <img class="social-media" src="img/facebook.png" alt="">
+                            <img class="social-media mx-2" src="img/twitter-sign.png" alt="">
+                            <img class="social-media" src="img/instagram.png" alt="">
+                        </div>
+                        <p class="card-text mb-4 text-end font12">Tesmot house, Abdulrahman Okene close, Victoria
+                            Island,
+                            Lagos, Nigeria.</p>
+                        <p class="card-text mb-4 text-end font12">contact@piggyvest.com</p>
+                        <p class="card-text mb-4 text-end font12">+234 700 933 933 933</p>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+
+        <div class="text-center mb-5 footer-text">
+            <p class="description font12">Piggyvest (formerly piggybank.ng) is the leading online savings & investing
+                platform in Nigeria. For over 6 years, our <br> customers have saved and invested billions of Naira that
+                they would normally be tempted to spend.</p>
+        </div>
+
+        <div class="text-center footer-text font12">
+            <p class="description font12 text-primary">2016 - 2022 PiggyTech Global Limited - RC 1405222</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

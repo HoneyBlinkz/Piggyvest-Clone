@@ -1,0 +1,153 @@
+* {
+    font-family: 'sans-serif',
+}
+
+h3 {
+    font-size: 38px;
+    line-height: 48.08px;
+}
+
+.font12 {
+    font-size: 12.8px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font33 {
+    font-size: 33px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.hero-title {
+    font-size: 65px;
+    line-height: 82.42px;
+}
+
+.hero-image {
+    height: 18cm;
+}
+
+.footer-title {
+    font-weight: 600;
+    color: #0C1825;
+}
+
+.footer-link {
+    font-weight: 400;
+    color: #0C1825;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+.social-media {
+    width: 30px;
+}
+
+.footer-text {
+    font-weight: 400;
+}
+
+.description {
+    line-height: 30px;
+}
+
+.partners {
+    width: 160px;
+}
+
+.feature-title {
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.store-img {
+    width: 20px;
+}
+
+.security {
+    width: 100px;
+}
+
+.savings-icon {
+    width: 50px
+}
+
+.savings-border {
+    border-radius: 16px;
+}
+
+.arrowblue {
+    background-color: rgb(224, 239, 255);
+}
+
+.arrowgreen {
+    background-color: rgb(228, 255, 240);
+}
+
+.arrowred {
+    background-color: rgb(253, 231, 245);
+}
+
+.invest-photo {
+    width: 65%;
+}
+
+.violet {
+    color: #7913e5;
+    font-weight: 700;
+}
+
+.btn {
+    font-size: 16.5px;
+    font-weight: 600;
+    /* color: #fff!important; */
+    text-align: center;
+    white-space: nowrap;
+    padding: 16px 22px;
+    border-radius: 12px;
+}
+
+section {
+    max-height: 600px;
+}
+
+.testify {
+    max-height: 675px;
+}
+
+.customers .testimonials {
+    height: 400px;
+    margin: auto;
+    overflow-y: hidden;
+    position: relative;
+    width: auto;
+}
+
+.testify-slide-up {
+    animation: 35s linear 0s infinite normal none running eMdsbB;
+}
+
+.customers .testimonials .box {
+    max-width: 420px;
+    padding: 11px 17px 24px 18px;
+    margin-bottom: 10px !important;
+}
+
+.customers .testimonials .box,
+.savings .box,
+.stories .box {
+    background-color: #f9f9f9;
+    max-width: 352px;
+    margin-bottom: 45px !important;
+}
